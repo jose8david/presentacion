@@ -3,7 +3,6 @@
 ## 📑 Índice
 
 - [📘  Libro II. Título II. De los distintos tipos de contratos de las Administraciones Públicas](#--libro-ii-título-ii-de-los-distintos-tipos-de-contratos-de-las-administraciones-públicas)
-  - [📑 Índice](#-índice)
   - [Capítulo I. Del contrato de obras](#capítulo-i-del-contrato-de-obras)
     - [Elaboración y contenido del proyecto de obras. Artículo 231 - 234](#elaboración-y-contenido-del-proyecto-de-obras-artículo-231---234)
     - [Supervisión de proyectos. Artículo 235.](#supervisión-de-proyectos-artículo-235)
@@ -23,16 +22,16 @@
 
 ### Elaboración y contenido del proyecto de obras. [Artículo 231 - 234](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-43)
 
-La adjudicación de un contrato de obra requerirá la previa elaboración, supervisión, aprobación y replanteo del proyecto, que definirá con precesión el objeto del contrato.
+La adjudicación de un contrato de obra requerirá la previa **elaboración, supervisión, aprobación y replanteo del proyecto**, que definirá con precesión el objeto del contrato.
 
 A los efectos de elaboración del proyecto, las obras se clasificarán de conformidad con las categorías del artículo 232.
 
-El proyecto podrá elaborarse por:
+El proyecto podrá **elaborarse** por:
  - La propia administración.
  - Un tercero mediante la celebración de un contrato de servicios.
  - La misma empresa que vaya a ejecutar la obra. Este supuesto es excepcional y procederá únicamente en dos supuestos: **motivos técnicos** y por **dimensión excepcional o dificultades técnicas singulares**. 
   
-El contenido del proyecto deberá comprender, entre otros aspectos:
+El **contenido** del proyecto deberá comprender, entre otros aspectos:
  - Una memoria en la que se describa el objeto de la obra.
  - Los planos de conjunto y de detalle. 
  - El PPT 
@@ -43,39 +42,38 @@ El contenido del proyecto deberá comprender, entre otros aspectos:
   
 **Simplificación o refundición** o supresión de los documentos que conforman el proyecto:
 
-```bash
-    Proyectos de obra de **primer establecimiento**, **reforma** o **gran reparación** < 500.000 € de PBL, IVA excluido.
-```
-```bash
-    Reparación simple, rehabilitación, restauración, conservación y mantenimiento o demolición, cualquiera que sea su cuantía.
-```
 
+- Proyectos de obra de **primer establecimiento**, **reforma** o **gran reparación** < 500.000 € de PBL, IVA excluido.
+
+
+- Reparación simple, rehabilitación, restauración, conservación y mantenimiento o demolición, cualquiera que sea su cuantía.
 
 ```mermaid
 graph TD
-    A[Documentación del Proyecto] --> B{¿Tipo de obra?}
-    B --> C[Primer establecimiento, reforma o gran reparación < 500.000 € (sin IVA)]
-    B --> D[Reparación simple, rehabilitación, restauración, conservación, mantenimiento o demolición]
-
-    C --> E[Simplificación o refundición de documentos]
-    D --> F[Simplificación o supresión de documentos]
+    A[Simplificar o refundir elementos del proyectos] --> B{Tipo de proyecto}
+    B --> C[Primer establecimiento, reforma o gran reparación **PBL, sin IVA, < 500.000 €**]
+    B --> D[Reparación simple, rehabilitación, restauración, conservación, mantenimiento o demolición **siempre**]
 ```
 
 ### Supervisión de proyectos. [Artículo 235.](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-47)
 
 Se realizará antes de la aprobación del proyecto.
 
-Lo realizan las oficinas o unidades de supervisión de proyectos. Salvo que por las características del proyecto se requiera un plazo mayor, tendrán que emitir este informe en el plazo máximo de un mes (art. 136 RGLCAP).
+Lo realizan las oficinas o unidades de supervisión de proyectos. Salvo que por las características del proyecto se requiera un plazo mayor, tendrán que **emitir este informe en el plazo máximo de un mes** (art. 136 RGLCAP).
 
-Se llevará a cabo para verificar que el proyecto cumple con las disposiciones de carácter legal o reglamentario, así como la normativa de carácter técnico que aplique a cada proyecto. Las oficinas también comprobarán, por ejemplo, que los precios de los materiales y las unidades de obra sean adecuados o que el proyecto incluya el estudio de seguridad y salud.
+Se llevará a cabo para verificar que el proyecto **cumple con las disposiciones de carácter legal o reglamentario**, así como la **normativa de carácter técnico** que aplique a cada proyecto. Las oficinas también comprobarán, por ejemplo, que los precios de los materiales y las unidades de obra sean adecuados o que el proyecto incluya el estudio de seguridad y salud.
 
 Será preceptivo informe de supervisión en los siguientes casos:
 
-```bash
-Cuando el PBL de obra sin IVA sea igual o superior a 500.000 €.
+- Cuando el **PBL de obra sin IVA sea igual o superior a 500.000 €**.
 
-Proyecto que afecten a la estabilidad, seguridad o estanqueidad de la obra, cualquiera que sea su PBL.
+- Proyecto que afecten a la **estabilidad, seguridad o estanqueidad de la obra**, cualquiera que sea su PBL.
 
+```mermaid
+graph TD
+    A[Obligatoriedad de la supervisión] --> B{Presupuesto Base de Licitación, sin IVA}
+    B --> C[ NO OBLIGATORIO **PBL, sin IVA, < 500.000 €** y **no afecte a la estabilidad, seguridad o estanqueidad**]
+    B --> D[ OBLIGATORIO **PBL, sin IVA, > o = 500.000 €** O **no afecte a la estabilidad, seguridad o estanqueidad**]
 ```
 
 ### Aprobación del proyecto
