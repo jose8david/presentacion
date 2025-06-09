@@ -70,10 +70,12 @@ Será preceptivo informe de supervisión en los siguientes casos:
 - Proyecto que afecten a la **estabilidad, seguridad o estanqueidad de la obra**, cualquiera que sea su PBL.
 
 ```mermaid
-graph TD
-    A[Obligatoriedad de la supervisión] --> B{Presupuesto Base de Licitación, sin IVA}
-    B --> C[ NO OBLIGATORIO **PBL, sin IVA, < 500.000 €** y **no afecte a la estabilidad, seguridad o estanqueidad**]
-    B --> D[ OBLIGATORIO **PBL, sin IVA, > o = 500.000 €** O **no afecte a la estabilidad, seguridad o estanqueidad**]
+ graph TD
+    A[¿Es obligatorio el informe de supervisión?]
+    B{¿PBL sin IVA ≥ 500.000 € **O** no afecta a estabilidad, seguridad o estanqueidad?}
+    B -- Sí --> C[✅ OBLIGATORIO]
+    B -- No --> D[❌ NO OBLIGATORIO] 
+
 ```
 
 ### Aprobación del proyecto
@@ -81,9 +83,9 @@ Corresponde al órgano de contratación, salvo que dicha competencia esté atrib
 
 ### Replanteo del proyecto. [Artículo 236.](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-48) 
 
-Se llevará a cabo una vez aprobado el proyecto y antes de que se apruebe el expediente de contratación de la obra. 
+Se llevará a cabo una vez **aprobado el proyecto** y antes de que se apruebe el expediente de contratación de la obra. 
 
-Consistirá en comprobar la realidad geométrica de la obra y la disponibilidad de los terrenos precisos para su normal ejecución. Además de todos aquellos supuestos que figuren en el proyecto y sean básicos para celebrar el contrato.
+Consistirá en **comprobar la realidad geométrica de la obra** y la **disponibilidad de los terrenos** precisos para su normal ejecución. Además de todos aquellos supuestos que figuren en el proyecto y sean básicos para celebrar el contrato.
 
 En los contratos de obra de infraestructuras hidráulicas, de transporte y de carreteras, no se exigirá la disponibilidad de los terrenos; si bien, no podrá iniciarse la ejecución de la obra sin haberse formalizado la ocupación conforme a la Ley de Expropiación Forzosa.
 
@@ -93,11 +95,11 @@ Cuando se cedan terrenos o locales por parte de entidades públicas, la disponib
 
 ### Comprobación del replanteo. [Artículo 237](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-49)
 
-La ejecución del contrato de obras comenzará con el acta de comprobación del replanteo. 
+La **ejecución del contrato de obras comenzará con el acta de comprobación del replanteo**. 
 
-A tales efectos, dentro del plazo que se consigne en el contrato, que no podrá ser superior a un mes desde la fecha de su formalización, salvo casos excepcionales justificados, el servicio de la Administración encargada de las obras procederá, en presencia del contratista, a efectuar la comprobación del replanteo hecho previamente a la licitación, extendiéndose acta del resultado que será firmada por ambas partes interesadas, remitiéndose un ejemplar de la misma al órgano que celebró el contrato.
+A tales efectos, dentro del plazo que se consigne en el contrato, que **no podrá ser superior a un mes desde la fecha de su formalización**, salvo casos excepcionales justificados, el servicio de la Administración encargada de las obras procederá, en **presencia del contratista**, a **efectuar la comprobación del replanteo** hecho previamente a la licitación, extendiéndose **acta del resultado** que será firmada por ambas partes interesadas, remitiéndose un ejemplar de la misma al órgano que celebró el contrato.
 
-A partir del día siguiente pueden comenzar las obras. Si la Administración se retrasase en el replanteo, la empresa podrá solicitar la resolución del contrato, teniendo derecho por todos los conceptos, a un 2 % del precio del contrato, IVA excluido. 
+**A partir del día siguiente pueden comenzar las obras**. Si la **Administración se retrasase en el replanteo**, la empresa **podrá solicitar la resolución** del contrato, teniendo derecho por todos los conceptos, a un **2 % del precio del contrato**, IVA excluido. 
 
 ### Ejecución de las obras y responsabilidad del contratista. [Articulo 238](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-50)
 
@@ -105,23 +107,23 @@ Durante el desarrollo de las obras y hasta que se cumpla el plazo de garantía e
 
 ###  Fuerza mayor [Artículo 239](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-51)
 
-En casos de fuerza mayor y siempre que no exista actuación imprudente por parte del contratista, este tendrá derecho a una indemnización por los daños y perjuicios que se le hubieren producido en la ejecución del contrato. Se entenderá por fuerza mayor:
+En casos de **fuerza mayor** y siempre que no exista actuación imprudente por parte del contratista, este tendrá derecho a una **indemnización por los daños y perjuicios** que se le hubieren producido en la ejecución del contrato. Se entenderá por fuerza mayor:
 
-- Los incendios causados por la electricidad atmosférica.
-- Los fenómenos naturales de efectos catastróficos, como maremotos, terremotos, erupciones volcánicas, movimientos del terreno, temporales marítimos, inundaciones u otros semejantes.
-- Los destrozos ocasionados violentamente en tiempo de guerra, robos tumultuosos o alteraciones graves del orden público.
+- Los **incendios** causados por la **electricidad atmosférica**.
+- Los **fenómenos naturales de efectos catastróficos**, como maremotos, terremotos, erupciones volcánicas, movimientos del terreno, temporales marítimos, inundaciones u otros semejantes.
+- Los **destrozos ocasionados violentamente en tiempo de guerra, robos tumultuosos o alteraciones graves del orden público**.
 
 ### Certificaciones y abonos a cuenta [Artículo 240](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-52)
 
-A los efectos del pago, la Administración expedirá mensualmente, en los primeros diez días siguientes al mes al que correspondan, certificaciones que comprendan la obra ejecutada conforme a proyecto durante dicho período de tiempo, salvo prevención en contrario en el pliego de cláusulas administrativas particulares, cuyos abonos tienen el concepto de pagos a cuenta sujetos a las rectificaciones y variaciones que se produzcan en la medición final y sin suponer en forma alguna, aprobación y recepción de las obras que comprenden.
+A los efectos del pago, la Administración expedirá **mensualmente**, en los primeros **diez días siguientes al mes al que correspondan**, certificaciones que comprendan la obra ejecutada conforme a proyecto durante dicho período de tiempo, salvo prevención en contrario en el pliego de cláusulas administrativas particulares, cuyos abonos tienen el **concepto de pagos a cuenta** sujetos a las rectificaciones y variaciones que se produzcan en la medición final y sin suponer en forma alguna, aprobación y recepción de las obras que comprenden.
 
-El contratista tendrá también derecho a percibir abonos a cuenta sobre su importe por las operaciones preparatorias realizadas como instalaciones y acopio de materiales o equipos de maquinaria pesada adscritos a la obrar, debiendo asegurar los referidos pagos mediante la prestación de garantía.
+El contratista tendrá también derecho a percibir abonos a cuenta sobre su importe por las **operaciones preparatorias realizadas como instalaciones y acopio de materiales** o equipos de maquinaria pesada adscritos a la obrar, debiendo **asegurar los referidos pagos** mediante la **prestación de garantía**.
 
 ### Modificación del contrato de obras [Artículo 242](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-54)
 
 El artículo 242 establece las distintas posibilidades de modificación del contrato de obras.  No obstante, no tendrán la consideración de modificación:
 
-- El exceso de mediciones, entendiendo por tal, la variación que durante la correcta ejecución de la obra se produzca exclusivamente en el número de unidades realmente ejecutadas sobre las previstas en las mediciones del proyecto, siempre que en global no representen un incremento del gasto superior al 10 por ciento del precio del contrato inicial. Dicho exceso de mediciones será recogido en la certificación final de la obra. A esto responde el documento contable RC 108 de retención adicional del 10 % de la adjudicación.
+- El **exceso de mediciones**, entendiendo por tal, la variación que durante la correcta ejecución de la obra se produzca exclusivamente en el **número de unidades** realmente ejecutadas sobre las previstas en las mediciones del proyecto, siempre que en global **no representen un incremento del gasto superior al 10 por ciento del precio del contrato inicial**. Dicho exceso de mediciones **será recogido en la certificación final de la obra**. A esto responde el documento contable **RC 108 de retención adicional del 10 % de la adjudicación**.
 
 ### Recepción y plazo de garantía [Artículo 243](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902&p=20250402&tn=1#a2-55)
 
@@ -134,21 +136,3 @@ A la recepción de las obras a su terminación y a los efectos establecidos en e
     - Comienza el plazo de inicio de garantía. El plazo de garantía se establecerá en el pliego de cláusulas administrativas particulares atendiendo a la naturaleza y complejidad de la obra y no podrá ser inferior a un año salvo casos especiales. Dentro del plazo de quince días anteriores al cumplimiento del plazo de garantía, el director facultativo de la obra, de oficio o a instancia del contratista, redactará un informe sobre el estado de las obras. Si este fuera favorable, el contratista quedará exonerado de toda responsabilidad, procediéndose a la devolución o cancelación de la garantía (en el plazo ordinario de 2 meses), a la liquidación del contrato y, en su caso, al pago de las obligaciones pendientes que deberá efectuarse en el plazo de sesenta días
     - Comienza a contar el plazo por la responsabilidad de vicios ocultos del artículo 244. Si la obra se arruina o sufre deterioros graves incompatibles con su función con posterioridad a la expiración del plazo de garantía por vicios ocultos de la construcción, debido a incumplimiento del contrato por parte del contratista, responderá este de los daños y perjuicios que se produzcan o se manifiesten durante un plazo de quince años a contar desde la recepción
 
-```mermaid
-flowchart TD
-    A[Recepción de las obras] --> B[Concurren: Representante de la Administración, Director de obra, Contratista (opcionalmente con su técnico)]
-    B --> C{¿Obras en estado de ser recibidas?}
-    C -- No --> D[Se hace constar en acta, se señalan defectos e instrucciones]
-    D --> E[Se fija plazo para subsanar]
-    E --> F{¿Subsanado en plazo?}
-    F -- No --> G[Conceder nuevo plazo improrrogable o resolver contrato]
-    F -- Sí --> H[Continuar proceso de recepción]
-    C -- Sí --> I[Acta de recepción firmada por técnico de la Administración]
-    I --> J[En 3 meses: Aprobación de certificación final]
-    J --> K[Pago al contratista a cuenta de la liquidación]
-    K --> L[Inicio del plazo de garantía]
-    L --> M[15 días antes del fin: Informe del director de obra]
-    M --> N{¿Informe favorable?}
-    N -- Sí --> O[Exoneración de responsabilidad, devolución de garantía, liquidación del contrato, pago de obligaciones]
-    L --> P[Inicio del plazo de responsabilidad por vicios ocultos (15 años desde recepción)]
-```
